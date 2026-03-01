@@ -2,7 +2,7 @@ import React from 'react'
 import { useSelector } from 'react-redux'
 import UserDashboard from '../components/UserDashboard'
 
-import deliveryBoy from '../components/deliveryBoy'
+import DeliveryBoy from '../components/DeliveryBoy'
 import { FaUtensils } from "react-icons/fa";
 import OwnerDashboard from '../components/OwnerDashboard';
 import Footer from '../components/Footer';
@@ -19,5 +19,6 @@ function Home() {
 }
 
 export default Home
+
 
 
