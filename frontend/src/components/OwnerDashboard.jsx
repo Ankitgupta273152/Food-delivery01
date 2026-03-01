@@ -5,7 +5,6 @@ import { useNavigate } from 'react-router-dom'
 import { FaUtensils, FaPen, FaPlus } from "react-icons/fa";
 import Footer from './Footer'
 import OwnerFoodCard from './OwnerFoodCard'
-import OwnerItemCard from './OwnerItemCard'
 import { useEffect } from 'react';
 import { setPendingOrdersCount } from '../redux/userSlice';
 
@@ -141,4 +140,5 @@ useEffect(()=>{
 }
 
 export default OwnerDashboard
+
 
