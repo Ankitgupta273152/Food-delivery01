@@ -1,6 +1,6 @@
 import React from 'react'
 import { useSelector } from 'react-redux'
-import UserDashboard from '../components/userDashboard'
+import UserDashboard from '../components/UserDashboard'
 
 import DeliveryBoy from '../components/deliveryBoy'
 import { FaUtensils } from "react-icons/fa";
@@ -19,3 +19,4 @@ function Home() {
 }
 
 export default Home
+
