@@ -24,7 +24,7 @@ const io=new Server(server,{
 })
 app.set("io", io);
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://food-delivery01-frontend.onrender.com",
     credentials:true
 }))
 app.use(express.json())
@@ -47,3 +47,4 @@ server.listen(port,()=>{
     connectDb()
 
 })
+
